@@ -1,5 +1,6 @@
 ---
-
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
 ---
 
 <html lang="en">
@@ -11,9 +12,7 @@
 		<title>Blob</title>
 	</head>
 	<body>
-        <a href="/">Inicio</a>
-<a href="/about/">Sobre mi</a>
-<a href="/blog/">Blog</a>
+		<Navigation/>
 
 <h1>Mi blog de aprendizaje sobre Astro</h1>
 <p>Aquí es donde publicaré acerca de mi viaje aprendiendo Astro./p>
@@ -22,5 +21,6 @@
   <li><a href="/posts/post2/">Publicación 2</a></li>
   <li><a href="/posts/post3/">Publicación 3</a></li>
 </ul>
+<Footer/>
 	</body>
 </html>
